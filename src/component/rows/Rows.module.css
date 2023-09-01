@@ -1,0 +1,56 @@
+.row {
+  color: white;
+}
+
+.row h2 {
+  margin-left: 1.25rem;
+}
+
+.row_posters {
+  display: flex;
+  width: max-content;
+  transform: translateX(0px);
+  transition: all 1s ease;
+  /* overflow-y: hidden;
+  overflow-x: scroll; */
+  padding: 20px 0;
+  margin-left: 50px;
+  transform: translateX(0px);
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.wrapper {
+  display: flex;
+  position: relative;
+  gap: 1rem;
+}
+
+.sliderArrow_right {
+  position: absolute;
+  color: #fff;
+  font-size: 4rem;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 10;
+  background-color: rgb(22, 22, 22, 0.5);
+  height: 100%;
+  width: 50px;
+}
+.sliderArrow_left {
+  position: absolute;
+  color: #fff;
+  font-size: 4rem;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 50px;
+  margin: auto;
+  background-color: rgb(22, 22, 22, 0.5);
+  z-index: 10;
+  height: 100%;
+}
